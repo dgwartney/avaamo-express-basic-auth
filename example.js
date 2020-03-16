@@ -111,7 +111,7 @@ app.get('/realmfunction', realmFunctionAuth, function(req, res) {
 })
 
 app.listen(8080, function() {
-    console.log("Listening!")
+    console.log("Listening!" + ' on port 8080');
 })
 
 //Custom authorizer checking if the username starts with 'A' and the password with 'secret'
